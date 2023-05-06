@@ -366,7 +366,7 @@ el mouse por arriba*/
     opacity: 0;
     transition: all 0.6s ease;
 }
-.contModal1{
+.contModal{
     background-color: rgb(255, 200, 107);
     width: 40%;
     margin: auto;
@@ -380,21 +380,21 @@ el mouse por arriba*/
     opacity: 0;
     transition: all 0.6s ease;
 }
-.contModal1 h1{
+.contModal h1{
     color: #34353a;
     font-size: 2.5rem;
 }
-.contModal1 p{
+.contModal p{
     color: rgb(0, 0, 0);
     font-size: 1.1rem;
     text-align: center;
 }
-.contModal1 h2{
+.contModal h2{
     color: #34353a;
     font-size: 1.7rem;
     padding-bottom: 10px;
 }
-.contModal1 a{
+.contModal a{
     color: white;
     display: flex;
     justify-content: center;
@@ -407,11 +407,11 @@ el mouse por arriba*/
     border-radius: 5px;
     transition: all 0.6s ease;
 }
-.contModal1 a:hover{
+.contModal a:hover{
     background-color: #34353a;
     color: #ffc86b;
 }
-.contModal1 button{
+.contModal button{
     padding: 5px 17px;
     border-radius: 5px;
     background-color: #ffc86b;

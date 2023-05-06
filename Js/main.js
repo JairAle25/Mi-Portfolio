@@ -1,7 +1,7 @@
 const btnAbrir1 = document.getElementById('btnA1');
 const btnCerrar1 = document.getElementById('btnC1');
-const modalFondo = document.querySelector('.modal');
-const modal1 = document.querySelector('.contModal1');
+const modalFondo = document.getElementById('modalFondo');
+const modal1 = document.getElementById('modal1');
 
 btnAbrir1.addEventListener('click',()=>{
     modalFondo.classList.add('show');
