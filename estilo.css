@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+/*Le doy a toda la pagina un margin y un padding 0, aparte
+de darle una tipografia en general*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*a todos los links les saco la decoracion*/
+a{
+    text-decoration: none;
+}
+.scroll{
+    scroll-margin-top:9.8ex;
+}
+/*le movemos la cabecera para que el logo y los links queden
+con un espaciado adecuado*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #34353a;
+    height: 10vh;
+    padding: 5px 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+/*acomodo la imagen del Logo*/
+header img{
+    width: 3.2%;
+}
+/*le doy propiedades al nav, para que los links tengan
+espaciado entre si*/
+nav{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+/*cambio el color y el tamaño de la letra de los links
+de la cabecera*/
+nav a{
+    color: #a5a6a7;
+    transition: color 0.6s;
+    font-size: 1.05rem;
+}
+/*le doy pequeña transicion cuando pasan
+el mouse por arriba*/
+nav a:hover{
+    color: #ffc86b;
+}
+/*Le doy propiedades al hero para que se separe en dos*/
+.hero{
+    height: 100vh;
+    background-color: #34353a;
+    display: flex;
+    justify-content: space-between;
+}
+/*le doy propiedades al apartado del hero
+con mi nombre y informacion*/
+.hero .informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 55%;
+}
+/*Modificamos tamaño y color del H1*/
+.hero .informacion h1{
+    font-size:3rem;
+    color: white;
+}
+/*Ponemos otro color para mi nombre*/
+.hero .informacion span{
+    font-size: 5rem;
+    color: #ffc86b;
+}
+/*la descripcion la le pongo color y tamaño*/
+.hero .informacion p{
+    color: white;
+    font-size: 1.8rem;
+}
+/*Le doy estilo y dimension al boton que nos puede contactar*/
+.hero .informacion a{
+    color: #ffc86b;
+    border: 4px solid #ffc86b;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+/*Transicion del boton para darle mas detalle*/
+.hero .informacion a:hover{
+    background-color: #ffc86b;
+    color: #34353a;
+}
+/*la parte derecha del hero le doy tamaño y posicion*/
+.hero .iconos{
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    flex-basis: 45%;
+}
+/*cambio le doy lugar y espaciado a los iconos*/
+.hero .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    margin-right: 13%;
+    margin-bottom: 20%;
+}
+/*tamaño a la linea que esta arriba de los iconos*/
+.hero .contenedor img{
+    border-radius: 20px;
+    width: 16px;
+}
+/*cambio el tamaño y el color de los iconos*/
+.hero .iconos i{
+    font-size: 2rem;
+    color: white;
+    transition: color 0.6s;
+}
+/*pequeña transicion a otro color cuando paso
+el mouse por arriba*/
+.hero .iconos i:hover{
+    color: #ffc86b;
+}
+ 
+.sobreMi{
+    background-color: #424550;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoMia{
+    width: 85%;
+    margin: 0 auto;
+}
+.infoMia h1{
+    color: white;
+    font-size: 2.8rem;
+    padding-top: 80px;
+}
+.infoMia .texto{
+    display: flex;
+    margin-top: 30px;
+}
+.infoMia .texto i{
+    font-size: 2.5rem;
+    color: #ffc86b;
+}
+.infoMia .texto p{
+    font-size: 1.3rem;
+    color: white;
+    padding-top: 10px;
+}
+.infoMia .texto span{
+    color: #ffc86b;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.habilidades h1{
+    color: white;
+    font-size: 3.3rem;
+    text-align: center;
+    padding-top: 30px;
+}
+.habilidades h2{
+    color: white;
+    padding-top: 20px;
+    transition: all 0.4s ease;
+}
+.contHabilidades{
+    display: flex;
+    flex-direction: column;
+}
+.grupo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #34353a;
+    color: white;
+    border-radius: 15px;
+    width: 22%;
+    padding: 50px 0px;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+.caja:hover{
+    background-color: #ffc86b;
+}
+.caja:hover h2 {
+    color: #34353a;
+}
+  
+.grupo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.caja img{
+    width: 25%;
+}
+
+.proyectos{
+    background-color:#424550;
+    height: 95vh;
+}
+.contProyecto{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contProyecto h1{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grupoProyecto{
+    display: flex;
+    justify-content: space-between;
+}
+.cajaProyecto{
+    width: 32%;
+    margin-top: 30px;
+    height: 31vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.contInfo{
+    background-color: rgb(52, 53, 58,0.8);
+    width: 100%;
+    height: 31vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.contInfo h2{
+    color: #ffc86b;
+    font-size: 2.2rem;
+}
+.contInfo p{
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 15px;
+}
+.contInfo button{
+    padding: 7px 17px;
+    border-radius: 5px;
+    background-color: #ffc86b;
+    color: #34353a;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.contInfo button:hover{
+    background-color: #34353a;
+    color: #ffc86b;
+}
+.proy1{
+    background: url(img/pagina6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.proy2{
+    background: url(img/pagina5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proy3{
+    background: url(img/pagina4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proy4{
+    background: url(img/pagina3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proy5{
+    background: url(img/pagina2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proy6{
+    background: url(img/pagina1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
