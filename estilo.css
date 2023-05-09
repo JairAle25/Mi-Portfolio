@@ -317,12 +317,18 @@ el mouse por arriba*/
     padding-left: 10px;
     font-size: 1.1rem;
 }
+.proy {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .proy1{
     background: url(img/pagina6.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 .proy2{
     background: url(img/pagina5.png);
@@ -376,8 +382,8 @@ el mouse por arriba*/
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    pointer-events: none;
-    opacity: 0;
+    pointer-events: unset;
+    opacity: 1;
     transition: all 0.6s ease;
 }
 .contModal h1{
