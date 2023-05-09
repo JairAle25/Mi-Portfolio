@@ -294,14 +294,14 @@ el mouse por arriba*/
     font-size: 1.2rem;
     padding-left: 10px;
 }
-.contProyecto a{
+.proyectos .mas{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffc86b;
     color: #34353a;
-    font-size: 1rem;
+    font-size: 1.05rem;
     width: 10%;
     margin: 0 auto;
     margin-top: 20px;
@@ -309,53 +309,15 @@ el mouse por arriba*/
     border-radius: 5px;
     transition: all 0.6s ease;
 }
-.contProyecto a:hover{
+.proyectos .mas:hover{
     background-color: #34353a;
     color: #ffc86b;
 }
-.contProyecto i{
+.mas i{
     padding-left: 10px;
     font-size: 1.1rem;
 }
 .proy {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.proy1{
-    background: url(img/pagina6.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* position: relative; */
-}
-.proy2{
-    background: url(img/pagina5.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.proy3{
-    background: url(img/pagina4.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.proy4{
-    background: url(img/pagina3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.proy5{
-    background: url(img/pagina2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.proy6{
-    background: url(img/pagina1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -434,4 +396,47 @@ el mouse por arriba*/
 .show{
     opacity: 1;
     pointer-events: unset;
+}
+.contacto{
+    background-color: #424550;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.contacto h1{
+    color: white;
+    font-size: 3rem;
+}
+.contContacto{
+    background-color: rgb(255, 200, 107,0.3);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.deLado{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 20px;
+}
+.cajaContacto{
+    display: flex;
+    background-color: #34353a;
+    padding: 20px 20px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.cajaContacto i{
+    color: white;
+    font-size: 1.4rem;
+    padding-right: 15px;
+}
+.cajaContacto p{
+    color: #ffc86b;
+    font-size: 1.1rem;
 }
