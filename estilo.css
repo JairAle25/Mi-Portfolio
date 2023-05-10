@@ -413,7 +413,7 @@ el mouse por arriba*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 35vh;
+    height: 37vh;
     background-color: rgb(255, 200, 107,0.2);
 }
 .deLado{
@@ -464,4 +464,15 @@ el mouse por arriba*/
 }
 .linkContacto a:hover{
     color: #ffc86b;
+}
+
+footer{
+   background-color: #424550;
+   display: flex;
+   justify-content: center;
+   height: 20vh;
+}
+footer h2{
+    color: #ffc86b;
+    font-size: 2.5rem;
 }
