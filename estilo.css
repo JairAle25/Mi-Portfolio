@@ -186,10 +186,10 @@ el mouse por arriba*/
     display: flex;
     flex-direction: column;
 }
-.grupo1{
+.grupoHabilidades{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 35px;
 }
 .caja{
@@ -210,13 +210,6 @@ el mouse por arriba*/
 }
 .caja:hover h2 {
     color: #34353a;
-}
-  
-.grupo2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 35px;
 }
 .caja img{
     width: 25%;
