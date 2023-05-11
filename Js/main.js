@@ -76,54 +76,54 @@ const misTrabajos = [
 		titulo: "GlobeTrotter",
 		descripcion: "Landing Page sobre vuelos y turismo",
 		image: "img/pagina6.png",
-		detalle: "Este proyecto es de una pagina de turismo y vuelos, la hice como parte de un trabajo practico en el curso de Argentina Programa",
-		url_repositorio: "",
-		url_pagina: ""
+		detalle: "Este proyecto es de una pagina de turismo y vuelos, si estas interasdo en viajar en esta pagina podes comprar paquetes de vuelos hacia distintos al rededor del mundo",
+		url_repositorio: "https://github.com/JairAle25/Landin-Page-GlobeTrotter",
+		url_pagina: "https://jairale25.github.io/Landin-Page-GlobeTrotter/"
 	},
 	{
 		id: 2,
 		titulo: "Norway",
 		descripcion: "Landing Page sobre turismo en Noruega",
 		image: "img/pagina5.png",
-		detalle: "Este es un proyecto",
-		url_repositorio: "",
-		url_pagina: ""
+		detalle: "Esta es una pagina de turismo sobre Noruega, si estas interesado en ir a Noruega y no sabes que lugares podrias visitar, esta es la pagina que tenes que visitar , te mostramos los tres lugares mas lindos y turisticos del pais para que puedas vistitarlos",
+		url_repositorio: "https://github.com/JairAle25/Landing-Page-Norway",
+		url_pagina: "https://jairale25.github.io/Landing-Page-Norway/"
 	},
 	{
 		id: 3,
 		titulo: "Deports News",
 		descripcion: "Landing Page sobre noticias deportivas",
 		image: "img/pagina4.png",
-		detalle: "",
-		url_repositorio: "",
-		url_pagina: ""
+		detalle: "Esta una Landing Page de noticas deportivas, en esta pagina te contamos las ultimas noticias del deporte, los traspasos , los rumores , los fichajes , todo sobre deportes lo encontramos en esta pagina",
+		url_repositorio: "https://github.com/JairAle25/Landing-Page-Deports",
+		url_pagina: "https://jairale25.github.io/Landing-Page-Deports/"
 	},
 	{
 		id: 4,
 		titulo: "Fun Petz",
 		descripcion: "Landing Page sobre animales",
 		image: "img/pagina3.png",
-		detalle: "",
-		url_repositorio: "",
-		url_pagina: ""
+		detalle: "Esta es una Landing Page acerca de animales, donde tenemos informacion sobre productos y juguetes para cualquier mascota, hecho con unos colores llamativos para que se vea una pagina divertida para el cliente",
+		url_repositorio: "https://github.com/JairAle25/Lading-Page-FunPetz",
+		url_pagina: "https://jairale25.github.io/Lading-Page-FunPetz/"
 	},
 	{
 		id: 5,
 		titulo: "Presentacion",
 		descripcion: "Hero Page en ruso para presentarse",
 		image: "img/pagina2.png",
-		detalle: "",
-		url_repositorio: "",
-		url_pagina: ""
+		detalle: "Esta es una Hero page, donde empece a usar mas herramientas que estuve aprediendo, en esta pagina podemos presentarnos y mostrar nuestros trabajos",
+		url_repositorio: "https://github.com/JairAle25/Hero-Page",
+		url_pagina: "https://jairale25.github.io/Hero-Page/"
 	},
 	{
 		id: 6,
 		titulo: "Login Page",
 		descripcion: "Pagina para registrarse y ingresar",
 		image: "img/pagina1.png",
-		detalle: "",
-		url_repositorio: "",
-		url_pagina: ""
+		detalle: "Esta en una pagina donde podemos ver un Login junto a una imagen con una frase, este fue el primer proyecto que hice y poco a poco fue aprendiendo mas",
+		url_repositorio: "https://github.com/JairAle25/Login-Page",
+		url_pagina: "https://jairale25.github.io/Login-Page/"
 	},
 ];
 
