@@ -1,3 +1,11 @@
+const BotonMenu = document.querySelector('.listaResponsive');
+const Menu = document.querySelector('.links');
+
+BotonMenu.addEventListener('click',()=>{
+	Menu.classList.toggle('mostrarLista');
+	BotonMenu.classList.toggle('rotarLista');
+})
+
 const MisHabilidades = [
 	{
 		idHablidad: 1,
