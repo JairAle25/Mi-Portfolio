@@ -180,9 +180,35 @@ const openModal = (proyectoToRender) => {
 	modalContent.querySelector('#contModal_url_pagina').href = proyectoToRender.url_pagina ?? '#';
 	modalContent.querySelector('#contModal_url_pagina').target = proyectoToRender.url_pagina ? '_blank' : '';
 	modalFondo.classList.add("show");
+	modalContent.classList.add("animacion");
 }
 btnCerrar.addEventListener("click", () => {
-  modalFondo.classList.remove("show");
+	const modalContent = modalFondo.querySelector('.contModal');
+  	modalFondo.classList.remove("show");
+  	modalContent.classList.remove("animacion");
 });
 
 renderProyectos();
+
+//COPIAR LO QUE ESTA EN MAIL Y TELEFONO
+const divMail = document.getElementById("mail");
+const divTelefono = document.getElementById("telefono");
+const divCartel = document.getElementById("copiado");
+divMail.addEventListener('click',()=>{
+	const texto = divMail.querySelector("p").textContent;
+	navigator.clipboard.writeText(texto);
+	divCartel.innerHTML=`
+	<p class="avisoCopiar"><i class="bi bi-check-circle-fill"></i>El Mail se ah copiado correctamente!!</p>
+	`
+	const mensaje = divCartel.querySelector(".avisoCopiar");
+	mensaje.classList.add("mensajeCopiado");
+});
+divTelefono.addEventListener('click',()=>{
+	const texto = divTelefono.querySelector("p").textContent;
+	navigator.clipboard.writeText(texto);
+	divCartel.innerHTML=`
+	<p class="avisoCopiar"><i class="bi bi-check-circle-fill"></i>El Telefono se ah copiado correctamente!!</p>
+	`
+	const mensaje = divCartel.querySelector(".avisoCopiar");
+	mensaje.classList.add("mensajeCopiado");
+});
