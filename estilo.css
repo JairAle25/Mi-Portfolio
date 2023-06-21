@@ -570,28 +570,6 @@ a{
     .linkContacto a:hover{
         color: var(--ColorLetrasSecundaria);
     }
-    .avisoCopiar{
-        background-color: var(--ColorLetrasSecundaria);
-        color: #000;
-        position: absolute;
-        top: 88%;
-        left: 74%;
-        padding: 15px;
-        display: flex;
-        gap: 0.5rem;
-        font-size: 1rem;
-        align-items: center;
-        border-radius: 5px;
-        opacity: 0;
-        pointer-events: none;
-    }
-    .avisoCopiar i{
-        color: rgb(19, 152, 19);
-        font-size: 1.5rem;
-    }
-    .mensajeCopiado{
-        animation: mensaje 2s ease;
-    }
 
     @keyframes mensaje {
         0%{
@@ -798,5 +776,120 @@ a{
     }
     footer h2{
         font-size: 2.3rem;
+    }
+}
+
+@media (max-width:480px) {
+    .hero .iconos{
+        display: none;
+    }
+    .hero{
+        height: 90vh;
+    }
+    /*le doy propiedades al apartado del hero
+    con mi nombre y informacion*/
+    .hero .informacion{
+        width: 95%;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin: 0 auto;
+    }
+    /*Modificamos tamaño y color del H1*/
+    .hero .informacion h1{
+        font-size:4rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    /*Ponemos otro color para mi nombre*/
+    .hero .informacion span{
+        font-size: 4rem;
+        text-align: center;
+    }
+    /*la descripcion la le pongo color y tamaño*/
+    .hero .informacion p{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 95%;
+        padding-bottom: 2rem;
+    }
+    /*Le doy estilo y dimension al boton que nos puede contactar*/
+    .hero .informacion a{
+        font-size: 1.2rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin: 0 auto;
+        animation: difuminado 7s ease;
+    }
+    @keyframes difuminado {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .infoMia{
+        align-items: center;
+    }
+    .infoMia h1{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .infoMia .texto p{
+        font-size: 1.2rem;
+    }
+    .infoMia .cv{
+        font-size: 1rem;
+    }
+    .habilidades h1{
+        font-size: 2.6rem;
+    }
+    .grupoHabilidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.4rem;
+    }
+    .caja{
+        width: 55%;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+        transition: all 0.7s ease;
+    }
+    .caja h2{
+        font-size: 1.7rem;
+    }
+    .contProyecto h1{
+        font-size: 2.6rem;
+    }
+    .grupoProyecto{
+        margin-top: 1rem;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.4rem;
+    }
+    .cajaProyecto{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .proyectos .mas{
+        width: 60%;
+        font-size: 1.1rem;
+    }
+    .contacto h1{
+        font-size: 2.6rem;
+    }
+    .deLado{
+        flex-direction: column;
+    }
+    .cajaContacto p{
+        font-size: 1.1rem;
+    }
+    .linkContacto i{
+        font-size: 1.5rem;
+    }
+    footer h2{
+        text-align: center;
+        font-size: 1.7rem;
     }
 }
