@@ -780,6 +780,12 @@ a{
 }
 
 @media (max-width:480px) {
+    .links{
+        width: 100%;
+    }
+    .links .link a{
+        font-size: 1.36rem;
+    }
     .hero .iconos{
         display: none;
     }
@@ -791,8 +797,8 @@ a{
     .hero .informacion{
         width: 95%;
         margin-left: 0;
-        margin-bottom: 0;
         margin: 0 auto;
+        margin-bottom: 6rem;
     }
     /*Modificamos tamaño y color del H1*/
     .hero .informacion h1{
@@ -891,5 +897,48 @@ a{
     footer h2{
         text-align: center;
         font-size: 1.7rem;
+    }
+    .contModal{
+        width: 70%;
+    }
+    .costado{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .contModal a{
+        color: var(--ColorLetrasPrincipal);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--ColorFondoPrincipal);
+        color: var(--ColorLetrasSecundaria);
+        font-size: 1rem;
+        margin: 0 auto;
+        padding: 7px 30px;
+        border-radius: 5px;
+        transition: all 0.6s ease;
+        width: 50%;
+        
+    }
+    .contModal a:hover{
+        background-color: var(--ColorLetrasSecundaria);
+        color: var(--ColorFondoPrincipal);
+    }
+    .contModal button{
+        padding: 5px 40px;
+        border-radius: 5px;
+        background-color: var(--ColorFondoSecundario);
+        color: var(--ColorLetrasSecundaria);
+        border: 3px solid var(--ColorLetrasSecundaria);
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
     }
 }
