@@ -17,12 +17,12 @@ de darle una tipografia en general*/
 html{
     scroll-behavior: smooth;
 }
+.scroll{
+    scroll-margin-top:12.3ex;
+}
 /*a todos los links les saco la decoracion*/
 a{
     text-decoration: none;
-}
-.scroll{
-    scroll-margin-top:9.8ex;
 }
 @media(max-width:7000px ){
     /*le movemos la cabecera para que el logo y los links queden
@@ -35,12 +35,16 @@ a{
         height: 10vh;
         padding: 5px 0px;
         width: 100%;
-        position: fixed;
-        z-index: 1;
+        position: sticky;
+        top: 0;
+        z-index: 1; 
     }
     /*acomodo la imagen del Logo*/
     header img{
-        width: 3.2%;
+        width: 100%;
+    }
+    .linkLogo{
+        width: 3.5%;
     }
     .links .link{
         display: inline-block;
@@ -52,7 +56,7 @@ a{
         padding-left: 40px;
         color: #a5a6a7;
         transition: color 0.6s;
-        font-size: 1.05rem;
+        font-size: 1.08rem;
     }
     /*le doy pequeña transicion cuando pasan
     el mouse por arriba*/
@@ -78,7 +82,7 @@ a{
         align-items: start;
         margin-left: 6rem;
         flex-basis: 80%;
-        
+        margin-bottom: 6rem;
     }
     /*Modificamos tamaño y color del H1*/
     .hero .informacion h1{
@@ -179,7 +183,7 @@ a{
     
     .sobreMi{
         background-color: var(--ColorFondoSecundario);
-        height: 168vh;
+        /* height: 168vh; */
         display: flex;
         flex-direction: column;
     }
@@ -191,7 +195,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-top: 5rem;
+        padding-top: 0.6rem;
     }
     .infoMia h1{
         color: var(--ColorLetrasPrincipal);
@@ -243,12 +247,14 @@ a{
         margin-top: 50px;
         justify-content: center;
         align-items: center;
-        height: 88vh;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
     }
     .habilidades h1{
         color: var(--ColorLetrasPrincipal);
         font-size: 3.3rem;
         text-align: center;
+        padding-bottom: 1rem;
     }
     .habilidades h2{
         color: var(--ColorLetrasPrincipal);
@@ -263,7 +269,7 @@ a{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-top: 35px;
+        margin-top: 2.5rem;
     }
     .caja{
         display: flex;
@@ -273,8 +279,8 @@ a{
         background-color: var(--ColorFondoPrincipal);
         color: var(--ColorLetrasPrincipal);
         border-radius: 15px;
-        width: 22%;
-        padding: 35px 0px;
+        width: 23%;
+        padding: 3rem 0rem;
         transition: all 0.7s ease;
     }
     .caja:hover{
@@ -289,12 +295,12 @@ a{
 
     .proyectos{
         background-color:var(--ColorFondoPrincipal);
-        height: 95vh;
+        padding-top: 2.7rem;
+        padding-bottom: 2.6rem;
     }
     .contProyecto{
         width: 85%;
         margin: 0 auto;
-        padding-top: 20px;
         display: flex;
         flex-direction: column;
     }
@@ -304,6 +310,7 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 1.5rem;
     }
     .grupoProyecto{
         display: flex;
@@ -311,8 +318,7 @@ a{
     }
     .cajaProyecto{
         width: 31%;
-        margin-top: 18px;
-        height: 30vh;
+        margin-top: 1.2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -322,7 +328,7 @@ a{
     .contInfo{
         background-color: rgb(52, 53, 58,0.8);
         width: 100%;
-        height: 31vh;
+        height: 30vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -369,7 +375,7 @@ a{
         font-size: 1.05rem;
         width: 10%;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 1.9rem;
         padding: 10px 10px;
         border-radius: 5px;
         transition: all 0.6s ease;
@@ -490,13 +496,12 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 90vh;
-        
+        padding-top: 2.7rem ;
     }
     .contacto h1{
         color: var(--ColorLetrasPrincipal);
         font-size: 3.4rem;
-        padding-bottom: 20px;
+        padding-bottom: 3rem;
     }
     .contContacto{
         background: url(img/lineaAcostada.png),url(img/lineaAcostada.png),url(img/lineaAcostada.png),url(img/lineaAcostada.png);
@@ -508,9 +513,9 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 37vh;
         background-color: rgb(255, 200, 107,0.2);
         position: relative;
+        padding:4.5rem 0rem;
     }
     .deLado{
         display: flex;
@@ -551,10 +556,11 @@ a{
     }
     .linkContacto{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        width: 10%;
-        padding-top: 20px;
+        width: 100%;
+        gap: 2.5rem;
+        padding-top: 1.7rem;
     }
     .linkContacto a{
         color: var(--ColorLetrasPrincipal);
@@ -603,7 +609,7 @@ a{
     background-color: var(--ColorFondoSecundario);
     display: flex;
     justify-content: center;
-    height: 20vh;
+    padding: 4rem 0rem;
     }
     footer h2{
         color: var(--ColorLetrasSecundaria);
@@ -614,8 +620,9 @@ a{
 
 @media (max-width:1024px){
     /*acomodo la imagen del Logo*/
-    header img{
-        width: 5%;
+    
+    .linkLogo{
+        width: 6.9%;
     }
     .links{
         position: absolute;
@@ -625,14 +632,15 @@ a{
         right: 0;
         display: flex;
         flex-direction: column;
-        background-color: rgb(0, 0, 0,0.7);
+        background-color: rgb(0, 0, 0,0.9);
         height: 100vh;
-        width: 50%;
+        width: 60%;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         margin-left: auto;
         z-index: -1;
         opacity: 0;
+        gap: 2.8rem;
         pointer-events: none;
         transition: all 0.5 ease;
     }
@@ -640,7 +648,7 @@ a{
         padding-left: 0px;
         color: var(--ColorLetrasPrincipal);
         transition: color 0.6s;
-        font-size: 1.3rem;
+        font-size: 1.9rem;
     }
     .listaResponsive{
         display: inline-block;
@@ -656,8 +664,8 @@ a{
         opacity: 1;
         pointer-events: unset;
     }
-    .hero .informacion{
-        margin-left: 2rem;
+    .hero{
+        height: 90vh;
     }
     /*Le doy estilo y dimension al boton que nos puede contactar*/
     .hero .informacion a{
@@ -699,7 +707,7 @@ a{
     }
     .sobreMi{
         justify-content: center;
-        height: 130vh;
+        padding-top: 1.7rem;
     }
     
     .infoMia{
@@ -707,67 +715,88 @@ a{
         margin: 0 auto;
     }
     .infoMia h1{
-        font-size: 2.6rem;
+        font-size: 3rem;
         padding-top: 40px;
+    }
+    .infoMia .texto p{
+        font-size: 1.6rem;
+    }
+    .infoMia .cv{
+        margin-top: 3rem;
+        font-size: 1.4rem;
     }
 
     .habilidades{
         width: 90%;
         margin: 0 auto;
-        margin-top: 70px;
+        padding-top: 5rem;
+        padding-bottom: 4rem;
     }
     .habilidades h1{
-        padding-top: 0px;
+        padding-top: 1rem;
     }
     .habilidades h2{
-        padding-top: 25px;
+        padding-top: 1.2rem;
+        font-size: 1.6rem;
     }
     .grupoHabilidades{
         justify-content: space-between;
     }
     .caja{
-        padding: 38px 0px;
+        padding: 3.2rem 0rem;
     }
     .caja img{
-        width: 33%;
+        width: 40%;
     }
 
     .proyectos{
-        height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
     .contProyecto{
-        width: 90%;
-        padding-top: 0px;
+        width: 95%;
     }
     .contProyecto h1{
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
     .cajaProyecto{
-        width: 32%;
+        width: 31%;
         margin-top: 30px;
-        height: 28vh;
     }
     .contInfo{
-        height: 28vh;
         text-align: center;
     }
     .contInfo h2{
         font-size: 1.7rem;
     }
     .contInfo p{
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding: 0px 7px;
         padding-bottom: 20px;
         padding-top: 10px;
     }
+    .contInfo button{
+        font-size: 1rem;
+    }
     .proyectos .mas{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         width: 23%;
     }
     .mas i{
         font-size: 1.3rem;
+    }
+    .cajaContacto p{
+        font-size: 1.3rem;
+    }
+    .linkContacto{
+        gap: 3rem;
+    }
+    .linkContacto i{
+        font-size: 1.8rem;
+    }
+    footer h2{
+        font-size: 2.3rem;
     }
 }
