@@ -193,22 +193,11 @@ renderProyectos();
 //COPIAR LO QUE ESTA EN MAIL Y TELEFONO
 const divMail = document.getElementById("mail");
 const divTelefono = document.getElementById("telefono");
-const divCartel = document.getElementById("copiado");
 divMail.addEventListener('click',()=>{
 	const texto = divMail.querySelector("p").textContent;
 	navigator.clipboard.writeText(texto);
-	divCartel.innerHTML=`
-	<p class="avisoCopiar"><i class="bi bi-check-circle-fill"></i>El Mail se ah copiado correctamente!!</p>
-	`
-	const mensaje = divCartel.querySelector(".avisoCopiar");
-	mensaje.classList.add("mensajeCopiado");
 });
 divTelefono.addEventListener('click',()=>{
 	const texto = divTelefono.querySelector("p").textContent;
 	navigator.clipboard.writeText(texto);
-	divCartel.innerHTML=`
-	<p class="avisoCopiar"><i class="bi bi-check-circle-fill"></i>El Telefono se ah copiado correctamente!!</p>
-	`
-	const mensaje = divCartel.querySelector(".avisoCopiar");
-	mensaje.classList.add("mensajeCopiado");
 });
