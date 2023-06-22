@@ -292,9 +292,90 @@ a{
     .caja img{
         width: 25%;
     }
-
+    .Experiencia{
+        background-color: var(--ColorFondoSecundario);
+        width: 100%;
+    }
+    .contExp{
+        width: 100%;
+        background-color: rgb(255, 200, 107,0.1);
+        padding-bottom: 2rem;
+    }
+    .contExp h1{
+        font-size: 3.8rem;
+        text-align: center;
+        color: var(--ColorLetrasPrincipal);
+        padding-top: 2.5rem;
+        padding-bottom: 1.8rem;
+    }
+    .cajaExperiencia{
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        align-items: start;
+    }
+    .iconoExp{
+        width: 18%;
+        padding-top: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .iconoExp i{
+        font-size: 2rem;
+        color: var(--ColorLetrasSecundaria);
+        padding-top: 0.3rem;
+    }
+    .iconoExp img{
+        border-radius:  5px;
+        padding-top: 1rem;
+        width: 7%;
+    }
+    .textoExp{
+        display: flex;
+        flex-direction: column;
+    }
+    .textoExp h2{
+        color: var(--ColorLetrasSecundaria);
+        font-size: 2.8rem;
+    }
+    .textoExp h3{
+        color: var(--ColorFondoPrincipal);
+        font-size: 2rem;
+    }
+    .textoExp p{
+        color: #b9b9bc;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+    .linksExp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+    .linksExp a{
+        padding: 5px 40px;
+        border-radius: 5px;
+        background-color: var(--ColorFondoSecundario);
+        color: var(--ColorLetrasSecundaria);
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.7s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .linksExp a:hover{
+        background-color: var(--ColorLetrasSecundaria);
+        color: var(--ColorFondoSecundario);
+    }
     .proyectos{
-        background-color:var(--ColorFondoPrincipal);
+        background-color:var(--ColorFondoSecundario);
         padding-top: 2.7rem;
         padding-bottom: 2.6rem;
     }
@@ -726,7 +807,32 @@ a{
     .caja img{
         width: 40%;
     }
-
+    .contExp h1{
+        font-size: 4rem;
+    }
+    .cajaExperiencia{
+        width: 90%;
+        gap: 1rem;
+    }
+    .iconoExp img{
+        display: none;
+    }
+    .textoExp h2{
+        font-size: 3rem;
+    }
+    .textoExp h3{
+        font-size: 2.1rem;
+    }
+    .textoExp p{
+        font-size: 1.5rem;
+    }
+    .linksExp{
+        width: 80%;
+    }
+    .linksExp a{
+        font-size: 1.35rem;
+        margin-top: 1.5rem;
+    }
     .proyectos{
         display: flex;
         flex-direction: column;
@@ -865,6 +971,35 @@ a{
     .caja h2{
         font-size: 1.7rem;
     }
+    .contExp h1{
+        font-size: 3.1rem;
+    }
+    .iconoExp{
+        display: none;
+    }
+    .textoExp h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .textoExp h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .textoExp p{
+        font-size: 1.3rem;
+        text-align: center;
+        line-height: 2rem;
+        padding-top: 1rem;
+    }
+    .linksExp{
+        flex-direction: column;
+    }
+    .linksExp a{
+        font-size: 1.2rem;
+    }
+
+
+
     .contProyecto h1{
         font-size: 2.6rem;
     }
