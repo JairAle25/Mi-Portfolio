@@ -23,27 +23,37 @@ const MisHabilidades = [
 		Nombre: "JavaScript"
 	},
 	{
-		idHablidad: 4,
-		imagen: "img/SQL.svg",
-		Nombre: "SQL"
+		idHablidad:4,
+		imagen: "img/Bootstrap.png",
+		Nombre: "Bootstrap"
 	},
 	{
 		idHablidad: 5,
+		imagen: "img/SQL.svg",
+		Nombre: "SQL Server"
+	},
+	{
+		idHablidad: 6,
 		imagen: "img/cSharp.svg",
 		Nombre: "C#"
 	},
 	{
-		idHablidad: 6,
+		idHablidad: 7,
+		imagen: "img/NET-Framework.png",
+		Nombre: ".Net Framework"
+	},
+	{
+		idHablidad: 8,
 		imagen: "img/cMas.png",
 		Nombre: "C++"
 	},
 	{
-		idHablidad: 7,
+		idHablidad: 9,
 		imagen: "img/excel.svg",
 		Nombre: "Excel"
 	},
 	{
-		idHablidad: 8,
+		idHablidad: 10,
 		imagen: "https://upload.wikimedia.org/wikipedia/commons/0/08/Microsoft_Word_logo_%282013-2019%29.png?20131212130336",
 		Nombre: "Word"
 	}
