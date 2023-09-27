@@ -29,31 +29,36 @@ const MisHabilidades = [
 	},
 	{
 		idHablidad: 5,
+		imagen: "img/react.png",
+		Nombre: "React"
+	},
+	{
+		idHablidad: 6,
 		imagen: "img/SQL.svg",
 		Nombre: "SQL Server"
 	},
 	{
-		idHablidad: 6,
+		idHablidad: 7,
 		imagen: "img/cSharp.svg",
 		Nombre: "C#"
 	},
 	{
-		idHablidad: 7,
+		idHablidad: 8,
 		imagen: "img/NET-Framework.png",
 		Nombre: ".Net Framework"
 	},
 	{
-		idHablidad: 8,
+		idHablidad: 9,
 		imagen: "img/cMas.png",
 		Nombre: "C++"
 	},
 	{
-		idHablidad: 9,
+		idHablidad: 10,
 		imagen: "img/excel.svg",
 		Nombre: "Excel"
 	},
 	{
-		idHablidad: 10,
+		idHablidad: 11,
 		imagen: "https://upload.wikimedia.org/wikipedia/commons/0/08/Microsoft_Word_logo_%282013-2019%29.png?20131212130336",
 		Nombre: "Word"
 	}
@@ -91,6 +96,24 @@ const modalFondo = document.getElementById("modalFondo");
 const misTrabajos = [
 	{
 		id: 1,
+		titulo: "Clases Particulares",
+		descripcion: "Pagina para reservar una clase particular conmigo",
+		image: "img/clases.png",
+		detalle: "Esta es una pagina web para que los alumnos puedan informarse de como son las clases y para que puedan reservar una clase conmigo",
+		url_repositorio: "https://github.com/JairAle25/ClasesParticulares",
+		url_pagina: "https://jairale25.github.io/ClasesParticulares/"
+	},
+	{
+		id: 2,
+		titulo: "Conecta 4",
+		descripcion: "Pagina para Jugar conecta 4",
+		image: "img/conecta4.png",
+		detalle: "Esta en una pagina donde podemos jugar con un amigo al juego clasico Conecta 4",
+		url_repositorio: "https://github.com/JairAle25/Conecta-4",
+		url_pagina: "https://conecta-4-jair.netlify.app/"
+	},
+	{
+		id: 3,
 		titulo: "GlobeTrotter",
 		descripcion: "Landing Page sobre vuelos y turismo",
 		image: "img/pagina6.png",
@@ -99,7 +122,7 @@ const misTrabajos = [
 		url_pagina: "https://jairale25.github.io/Landin-Page-GlobeTrotter/"
 	},
 	{
-		id: 2,
+		id: 4,
 		titulo: "Norway",
 		descripcion: "Landing Page sobre turismo en Noruega",
 		image: "img/pagina5.png",
@@ -108,7 +131,7 @@ const misTrabajos = [
 		url_pagina: "https://jairale25.github.io/Landing-Page-Norway/"
 	},
 	{
-		id: 3,
+		id: 5,
 		titulo: "Deports News",
 		descripcion: "Landing Page sobre noticias deportivas",
 		image: "img/pagina4.png",
@@ -117,31 +140,13 @@ const misTrabajos = [
 		url_pagina: "https://jairale25.github.io/Landing-Page-Deports/"
 	},
 	{
-		id: 4,
+		id: 6,
 		titulo: "Fun Petz",
 		descripcion: "Landing Page sobre animales",
 		image: "img/pagina3.png",
 		detalle: "Esta es una Landing Page acerca de animales, donde tenemos informacion sobre productos y juguetes para cualquier mascota, hecho con unos colores llamativos para que se vea una pagina divertida para el cliente",
 		url_repositorio: "https://github.com/JairAle25/Lading-Page-FunPetz",
 		url_pagina: "https://jairale25.github.io/Lading-Page-FunPetz/"
-	},
-	{
-		id: 5,
-		titulo: "Presentacion",
-		descripcion: "Hero Page en ruso para presentarse",
-		image: "img/pagina2.png",
-		detalle: "Esta es una Hero page, donde empece a usar mas herramientas que estuve aprediendo, en esta pagina podemos presentarnos y mostrar nuestros trabajos",
-		url_repositorio: "https://github.com/JairAle25/Hero-Page",
-		url_pagina: "https://jairale25.github.io/Hero-Page/"
-	},
-	{
-		id: 6,
-		titulo: "Login Page",
-		descripcion: "Pagina para registrarse y ingresar",
-		image: "img/pagina1.png",
-		detalle: "Esta en una pagina donde podemos ver un Login junto a una imagen con una frase, este fue el primer proyecto que hice y poco a poco fue aprendiendo mas",
-		url_repositorio: "https://github.com/JairAle25/Login-Page",
-		url_pagina: "https://jairale25.github.io/Login-Page/"
 	},
 ];
 
