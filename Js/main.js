@@ -114,6 +114,24 @@ const misTrabajos = [
 	},
 	{
 		id: 3,
+		titulo: "Lista de Tareas",
+		descripcion: "Lista de tareas para anotar tus trabajos del dia",
+		image: "img/ListaDeTareas.png",
+		detalle: "Esta pagina esta diseñada para aquellas personas que quieren organizar su dia de la mejor manera, pueden utilizar esta lista de tareas para tener mas ordenado su dia y asi sacarle mayor provecho.",
+		url_repositorio: "https://github.com/JairAle25/TaskList-Proyect",
+		url_pagina: "https://task-list-proyect.netlify.app/"
+	},
+	{
+		id: 4,
+		titulo: "Pokedex Proyect",
+		descripcion: "Pagina para buscar pokemons por sus diferentes tipos",
+		image: "img/PokedexProyect.png",
+		detalle: "Esta es una pagina para los amantes de pokemon , van a poder buscar a todos los pokemones que deseen filtrando por su tipo , ya sea fuego , agua , dragon etc , ademas que tendran el numero de pokedex y sus stats",
+		url_repositorio: "https://github.com/JairAle25/Proyecto-Pokemon",
+		url_pagina: "https://jairale25.github.io/Proyecto-Pokemon"
+	},
+	{
+		id: 5,
 		titulo: "GlobeTrotter",
 		descripcion: "Landing Page sobre vuelos y turismo",
 		image: "img/pagina6.png",
@@ -122,32 +140,14 @@ const misTrabajos = [
 		url_pagina: "https://jairale25.github.io/Landin-Page-GlobeTrotter/"
 	},
 	{
-		id: 4,
+		id: 6,
 		titulo: "Norway",
 		descripcion: "Landing Page sobre turismo en Noruega",
 		image: "img/pagina5.png",
 		detalle: "Esta es una pagina de turismo sobre Noruega, si estas interesado en ir a Noruega y no sabes que lugares podrias visitar, esta es la pagina que tenes que visitar , te mostramos los tres lugares mas lindos y turisticos del pais para que puedas vistitarlos",
 		url_repositorio: "https://github.com/JairAle25/Landing-Page-Norway",
 		url_pagina: "https://jairale25.github.io/Landing-Page-Norway/"
-	},
-	{
-		id: 5,
-		titulo: "Deports News",
-		descripcion: "Landing Page sobre noticias deportivas",
-		image: "img/pagina4.png",
-		detalle: "Esta una Landing Page de noticas deportivas, en esta pagina te contamos las ultimas noticias del deporte, los traspasos , los rumores , los fichajes , todo sobre deportes lo encontramos en esta pagina",
-		url_repositorio: "https://github.com/JairAle25/Landing-Page-Deports",
-		url_pagina: "https://jairale25.github.io/Landing-Page-Deports/"
-	},
-	{
-		id: 6,
-		titulo: "Fun Petz",
-		descripcion: "Landing Page sobre animales",
-		image: "img/pagina3.png",
-		detalle: "Esta es una Landing Page acerca de animales, donde tenemos informacion sobre productos y juguetes para cualquier mascota, hecho con unos colores llamativos para que se vea una pagina divertida para el cliente",
-		url_repositorio: "https://github.com/JairAle25/Lading-Page-FunPetz",
-		url_pagina: "https://jairale25.github.io/Lading-Page-FunPetz/"
-	},
+	}
 ];
 
 const renderProyectos = () => {
